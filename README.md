@@ -1,17 +1,27 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
-### Date created
-Include the date you created this project and README file.
+### Date Created
+November 15, 2022
 
 ### Project Title
-Replace the Project Title
+Exploring US BikeShare Data Using Python
 
-### Description
-Describe what your project is about and what it does
+### Project Description
+This project analyzes US BikeShare Data that are collected from the following US cities: Chicago, New York City and Washington. This Python code uses csv files, which analyzes the data in an interactive program. The code computes statistics of the US BikeShare Data based on user inputs. 
 
-### Files used
-Include the files used
+### Project Impact
+The statistical analysis of the US BikeShare Data attempts to answer the following questions among other things:
+- Start and End Time
+- Trip Duration 
+- Start and End Station  
+
+### Files Used
+ bikeshare.py, chicago.csv, newyork.csv and washington.csv
+
+### Required Software 
+- Python 3, NumPy, pandas & Anaconda
+- Tex editor (Sublime/Atom)
+- Terminal application (Git Bash/Cygwin on Windows) 
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+- Source files brovided by: https://www.motivateco.com/
+- https://github.com/udacity/pdsnd_github/
+- https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
