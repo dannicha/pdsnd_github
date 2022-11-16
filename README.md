@@ -24,6 +24,10 @@ The statistical analysis of the *US BikeShare Data* attempts to answer the follo
 - Text editor (Sublime/Atom)
 - Terminal application (Git Bash/Cygwin on Windows)
 
+### Contributors
+- Daniel B.
+- pdsnd_github 
+
 ### Credits
 - https://www.motivateco.com/
 - https://www.python.org/downloads/windows/
