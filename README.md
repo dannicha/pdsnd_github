@@ -26,13 +26,14 @@ The statistical analysis of the *US BikeShare Data* attempts to answer the follo
 
 ### Contributors
 - Daniel B.
-- pdsnd_github 
+- pdsnd_github
 
 ### Credits
-- https://www.motivateco.com/
-- https://www.python.org/downloads/windows/
+- https://www.motivateco.com
+- https://www.python.org/downloads/windows
 - https://www.anaconda.com/products/distribution
 - https://github.com/udacity/pdsnd_github/
 - https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes
+- https://stackoverflow.com/
 
 Thank you to **[Udacity](https://www.udacity.com/)** for providing *Introduction to Version Control* that helps enrich the **Programming for Data Science with Python** course, which gives hands-on experience in code collaboration in GitHub repository.
