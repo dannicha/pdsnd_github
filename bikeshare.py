@@ -202,8 +202,21 @@ def user_stats(df, city):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+def display_raw_data(df):
+    # Your docstring here 
+    i = 0
+    raw = input("Please enter yes or no if you want to see raw data.\n").lower() 
 
-
+    while True:            
+        if raw == 'yes':
+            # TO DO: appropriately subset/slice your dataframe to display next five rows
+            print(df.iloc[i : i + 5]) 
+            raw = input("\nEnter yes or no to see more raw data.\n").lower() 
+            i += 5
+        elif raw == 'no':
+            break
+        else:
+            raw = input("\nYour input is invalid. Please enter only 'yes' or 'no'\n").lower()
 
 def main():
     while True:
@@ -214,7 +227,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df, city)
-        # display_raw_data(df)
+        display_raw_data(df)
         
         while True:
             restart = input('\nWould you like to restart? Please enter yes or no.\n').lower() 
